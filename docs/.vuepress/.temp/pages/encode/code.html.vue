@@ -1,0 +1,36 @@
+<template><div><h1 id="代码规范" tabindex="-1"><a class="header-anchor" href="#代码规范"><span>代码规范</span></a></h1>
+<ol>
+<li>formModelControl,formModelRules超多代码</li>
+<li>定义过多不使用的属性和方法（公共minx，等其他功能）</li>
+<li>Mixin和业务代码耦合（覆盖顺序：先mixin,后业务代码） （nonFormData类似文件）</li>
+<li>组件入参数量过多（文件上传）</li>
+<li>Data属性过多（frnSign，createSign等）</li>
+<li>容易被误解的注释</li>
+<li>嵌套结构过深</li>
+<li>代码格式化,减少莫名的空行，接口的.then缩进.catch缩进统一（便于git管理，合并）</li>
+<li>同级页面的组件不应该互相引用（不利于他人维护）</li>
+<li>一行不宜写太长代码（不利于阅读）</li>
+<li>删除不必要的注释代码（不利于阅读,可从git历史记录寻找）</li>
+<li>代码冗余（es6，contentFormatter，方法抽离,组件抽离,
+this.$message.error代替this.$message(配置对象),
+去除空的compputed/mounted,deep针对(不是基本类型),includes代替|| ||,
+a === b? true: false）</li>
+<li>使用全等===代替==（java是强数据类型）</li>
+<li>有问题的代码（{} == {},JSON.parse({}),）</li>
+<li>用模板字符串代替加号拼接</li>
+<li>props的类型是引用数据类型，default应使用函数return(() =&gt; ({}))
+因为vue规定，对象或数组默认值必须从一个工厂函数获取</li>
+<li>html不适合复杂的代码逻辑（两个语句）（computed代替）</li>
+<li>for的key尽量使用唯一标识（大型列表，减少重绘重排）</li>
+<li>托底处理，响应数据返回的列表是null或者[](res.list || [])</li>
+<li>接口堵塞，过多同步代码</li>
+<li>使用let, const 代替var()</li>
+<li>html不书写过多的内联样式（）</li>
+<li>统一样式风格，规范UI样式</li>
+<li>js精度计算，非必要要求，不在前端计算（若在bigDecimal,企业的精度计算的库）</li>
+<li>watch:deep滥用</li>
+<li>blur,change可以放在一个数组(elementUI)</li>
+</ol>
+</div></template>
+
+
