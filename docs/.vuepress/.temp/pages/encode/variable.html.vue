@@ -1,6 +1,15 @@
 <template><div><h1 id="变量命名规范" tabindex="-1"><a class="header-anchor" href="#变量命名规范"><span>变量命名规范</span></a></h1>
 <ul>
 <li>
+<p>domain领域</p>
+</li>
+<li>
+<p>algorithm算法（阿哥瑞诊）</p>
+</li>
+<li>
+<p>usage使用</p>
+</li>
+<li>
 <p>subscribe订阅</p>
 </li>
 <li>
@@ -26,6 +35,15 @@
 </li>
 <li>
 <p>type（用计算机）打字</p>
+</li>
+<li>
+<p>variable变量</p>
+</li>
+<li>
+<p>delicated精致</p>
+</li>
+<li>
+<p>implementation实现、工具（因p每审）</p>
 </li>
 <li>
 <p>resume简历</p>

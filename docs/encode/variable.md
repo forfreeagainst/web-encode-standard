@@ -1,5 +1,8 @@
 # 变量命名规范
 
+* domain领域
+* algorithm算法（阿哥瑞诊）
+* usage使用
 * subscribe订阅
 * transform转换
 * transport运输（这里指上传）
@@ -9,6 +12,9 @@
 * next下一个
 * below在下面
 * type（用计算机）打字
+* variable变量
+* delicated精致
+* implementation实现、工具（因p每审）
 
 * resume简历
 * primeNumber质数
